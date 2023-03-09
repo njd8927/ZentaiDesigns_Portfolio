@@ -6,6 +6,11 @@ html {
     scroll-padding-top: 4rem;
 }
 
+@keyframes example {
+    from {background-color: #34495E;}
+    to {background-color: #BDC3C7;}
+  }
+
 header {
     display: flex;
     justify-content: space-between;
@@ -20,6 +25,8 @@ header h1 {
     font-size: 48px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin:0;
+    animation-name: example;
+    animation-duration: 5s;
 }
 
 
@@ -46,11 +53,6 @@ header nav ul li {
     margin-left: 25px;
 }
 
-
-header img {
-    height: 95px;
-    width: 100vw;
-}
 
 body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -107,11 +109,8 @@ footer {
     display: flex;
     justify-content: center;
     padding: 2%;
-  }
-
-footer p {
-    margin-left: 75px;
 }
+
 
 
 
