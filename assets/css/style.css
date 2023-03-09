@@ -11,9 +11,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #34495E;
-    color: lightseagreen;
+    color: lightseagreen
 }
 
 header h1 {
@@ -100,11 +99,14 @@ a {
 
  
 footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    background-color: #34495E;
+    color: lightseagreen;
     display: flex;
     justify-content: center;
     padding: 2%;
-    background-color: #34495E;
-    color: lightseagreen;
   }
 
 footer p {
