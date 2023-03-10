@@ -83,10 +83,17 @@ body {
     color: lightseagreen;
 }
 
+.work-images {
+    display:flex;
+    justify-content: space-around;
+}
+
+
 .contact-me {
     color: lightseagreen;
     display:flex;
     justify-content: space-between;
+    margin-top: 100px;
 }
 
 
